@@ -2,17 +2,17 @@ body {
     background-color: #F5F5F5;
     font-family: Arial, Helvetica, sans-serif;
 }
+header {
+    display: inline;
+}
 .logo {
     display: inline;
-    float: left;
-    margin-left: 50px;
 }
 .links {
     display: inline;
     float: right;
     margin-right: 50px;
     word-spacing: 3em;
-    text-decoration: none;
 }
 .pagrindinis {
     text-decoration: none;
@@ -38,10 +38,11 @@ body {
 .hero {
     background-image: url(./img/hero_image.png);
     position: absolute;
-    width: 1200px;
+    width: 95%;
     height: 650px;
     top: 109px;
     border-radius: 41px;
+    margin: 40px;
 }
 .hero > h1 {
     position: relative;
@@ -68,4 +69,52 @@ body {
     background-color: white;
     color: black;
     padding: 10px;
+}
+.kvmr {
+    position: relative;
+    text-align: center;
+    margin-top: 900px;
+}
+.kvmr-h1 {
+    position: relative;
+    text-align: center;
+    margin-top: 950px;
+    font-size: 48px;
+}
+.kvmr-images {
+    position: relative;
+    margin-top: 100px;
+}
+.kvmr-txt {
+    display: flex;
+    margin-left: 350px;
+}
+.duk > h1 {
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+}
+.duk-txt-1 {
+    display: flex;
+    flex-basis: auto;
+}
+.duk-txt-2 {
+    display: flex;
+    flex-basis: auto;
+}
+.duk-buttons {
+    position: relative;
+    text-align: center;
+}
+.button-dark {
+    background-color: #414141;
+    color: #f3f3f3;
+    padding: 10px;
+    border-radius: 10px;
+}
+.button-bright {
+    background-color: #f3f3f3;
+    color: #414141;
+    padding: 10px;
+    border-radius: 10px;
 }
