@@ -1,0 +1,37 @@
+body {
+    background-color: #F5F5F5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo {
+    display: inline;
+    float: left;
+    margin-left: 50px;
+}
+.links {
+    display: inline;
+    float: right;
+    margin-right: 50px;
+    word-spacing: 3em;
+    text-decoration: none;
+}
+.pagrindinis {
+    text-decoration: none;
+    color: black;
+}
+.galerija {
+    text-decoration: none;
+    color: black;
+}
+.kainos {
+    text-decoration: none;
+    color: black;
+}
+.pagrindinis:hover {
+    text-decoration-line: underline;
+}
+.galerija:hover {
+    text-decoration-line: underline;
+}
+.kainos:hover {
+    text-decoration-line: underline;
+}
